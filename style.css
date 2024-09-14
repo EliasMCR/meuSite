@@ -25,7 +25,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     background-color: #FFA500;
-    color: #fff;
+    color: #3a2d2d;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -72,6 +72,16 @@ header nav ul li{
     padding: 0 40px;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: orange;
+}
+
 /*ESTILO DO TOPO*/
 
 section.topo-site{
@@ -109,4 +119,38 @@ section.topo-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/*ESTILO ESPECIALIDADES*/
+
+section.especialidades{
+    padding: 40px 4%;
+    
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .1s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.418);
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: orange;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    color: #fff;
+    margin: 15px 0px;
 }
