@@ -82,6 +82,32 @@ h2.titulo span{
     color: orange;
 }
 
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .1s;
+}
+
+.btn-social  .whatsapp{
+    background-color: green;
+}
+
+
+@keyframes flutuar{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
 /*ESTILO DO TOPO*/
 
 section.topo-site{
@@ -112,14 +138,6 @@ section.topo-site .flex{
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
-        top: 0px;
-    }
-    100%{
-        top: 30px;
-    }
-}
 
 /*ESTILO ESPECIALIDADES*/
 
@@ -189,18 +207,6 @@ section.sobre .flex{
 .sobre .img-sobre i{
     color: orange;
     font-size: 150px;
-}
-
-.sobre .txt-sobre .btn-social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: orange;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: .1s;
 }
 
 /*SECTION PORTFOLIO*/
@@ -296,4 +302,31 @@ form textarea{
 .logo-footer img{
     width: 100px;
     height: auto;
+}
+
+/* footer */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0px 0px 40px 10px #ffffff17;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0px;
+}
+
+footer .line-footer p i{
+    color:orange;
+    font-size: 22px;
+}
+
+
+footer .line-footer p a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
 }
