@@ -330,3 +330,29 @@ footer .line-footer p a{
     color: white;
     padding-left: 10px;
 }
+
+/* media query */
+
+
+
+@media screen and (max-width: 1280px){
+/* classes gerais */
+
+    .flex{
+        flex-direction: column;
+    }
+    .topo-site .flex{
+        flex-direction: column-reverse;
+    }
+
+/* header */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+/* section portfolio */
+    section.portfolio .flex{
+        gap: 30px;
+    }
+/* footer */
+
+}
