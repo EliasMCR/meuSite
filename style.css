@@ -35,6 +35,10 @@ button:hover{
     box-shadow: 0px 0px 8px #e49502;
     transform: scale(1.05);
 }
+
+span{
+    color: orange;
+}
 /* estilo do cabeçalho */
 header{
     padding: 40px 4%;
@@ -104,12 +108,20 @@ section.topo-site .flex{
 
 .topo-site p{
     color: #fff;
-    margin: 40px 0px;
+    margin: 10px 0px; 
 }
 
 .topo-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.topo-site button{
+    margin: 10px;
+}
+
+.topo-site i{
+    margin-right: 10px;
 }
 
 @keyframes flutuar{
@@ -232,4 +244,8 @@ section.portfolio .flex{
 .img-port:hover{
     background-position: 100% 100%;
     transform: scale(1.05);
+}
+
+section.topo-site .descricao p{
+    margin-top: 0px;
 }
